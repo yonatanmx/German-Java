@@ -1,0 +1,15 @@
+import java.util.*;
+klass Main {
+	offentlichkeit statisch leer main(Zeichenfolge[] arge) {
+		zahl[] a = {1, 2, 3, 2, 1};
+		System.raus.druckrh(palindrom(a));
+	}
+
+	offentlichkeit statisch boolsche palindrom(zahl[] a) {
+        fur(zahl i = 0; i < a.lange; i++) {
+            wenn(a[i] != a[a.lange-i-1])
+                ruckkehr falsch;
+        }
+        ruckkehr wahr;
+    }
+}
